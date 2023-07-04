@@ -3,7 +3,7 @@ const sequelize = new Sequelize("employeeDB", "root","", {
   host: "localhost",
   dialect: "mysql",
 });
-
+// ok
 try {
   sequelize.authenticate();
   console.log("Connection has been established successfully.");
